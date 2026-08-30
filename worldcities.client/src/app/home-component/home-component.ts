@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import { Toolbar } from 'primeng/toolbar';
+import { Prime } from '@primeicons/angular/prime';
+import { ButtonDirective } from 'primeng/button';
 
 @Component({
-  imports: [],
+  imports: [Toolbar, ButtonDirective, Prime],
   selector: 'app-home-component',
-  styleUrl: './home-component.css',
+  styleUrl: './home-component.scss',
   templateUrl: './home-component.html',
 })
 export class HomeComponent {}
