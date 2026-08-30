@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+/* This file needs to be a CSS files instead of SCSS, so Tailwind imports can work. */
+@import "tailwindcss";
+@import "tailwindcss-primeui";
 @import "primeicons/primeicons.css";
 
 html,
