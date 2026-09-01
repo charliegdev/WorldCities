@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { Toolbar } from 'primeng/toolbar';
-import { Prime } from '@primeicons/angular/prime';
-import { ButtonDirective } from 'primeng/button';
+import { RouterOutlet } from '@angular/router';
+import { NavMenu } from '../nav-menu/nav-menu';
 
 @Component({
-  imports: [Toolbar, ButtonDirective, Prime],
+  imports: [],
   selector: 'app-home',
   styleUrl: './home.scss',
   templateUrl: './home.html',

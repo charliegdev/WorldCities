@@ -1,1 +1,27 @@
-<p>nav-menu works!</p>
+<p-toolbar class="toolbar">
+  <ng-template #start>
+    <div class="flex items-center gap-1">
+      <svg data-p-icon="prime" class="home-icon pi pi-prime text-xl" />
+      <span class="font-bold text-lg ml-2 brand-text"> World Cities </span>
+    </div>
+
+    <div class="ml-6 flex flex-wrap gap-1">
+      <a
+        pButton
+        link
+        class="text-surface-0! hover:bg-surface-700!"
+        routerLink="/"
+      >
+        Home
+      </a>
+      <a
+        pButton
+        link
+        class="text-surface-0! hover:bg-surface-700!"
+        routerLink="health-check"
+      >
+        Health Check
+      </a>
+    </div>
+  </ng-template>
+</p-toolbar>
