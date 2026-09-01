@@ -5,8 +5,8 @@ import { ButtonDirective } from 'primeng/button';
 
 @Component({
   imports: [Toolbar, ButtonDirective, Prime],
-  selector: 'app-home-component',
-  styleUrl: './home-component.scss',
-  templateUrl: './home-component.html',
+  selector: 'app-home',
+  styleUrl: './home.scss',
+  templateUrl: './home.html',
 })
-export class HomeComponent {}
+export class Home {}
