@@ -1,4 +1,4 @@
-<p-toolbar class="toolbar">
+<p-toolbar class="toolbar" role="navigation" aria-label="nav-bar">
   <ng-template #start>
     <div class="flex items-center gap-1">
       <svg data-p-icon="prime" class="home-icon pi pi-prime text-xl" />
@@ -11,6 +11,8 @@
         link
         class="text-surface-0! hover:bg-surface-700!"
         routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact:true}"
       >
         Home
       </a>
@@ -18,7 +20,8 @@
         pButton
         link
         class="text-surface-0! hover:bg-surface-700!"
-        routerLink="health-check"
+        routerLink="/health-check"
+        routerLinkActive="active"
       >
         Health Check
       </a>
